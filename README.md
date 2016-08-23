@@ -12,6 +12,10 @@ It can:
 * use stylesheets
 
 Usage:
+1. download
+2. read the short brief *"web/index.html"*
+3. edit content, template and files for your needs
+4. run ./build.sh in terminal
 
 
 Please give me some feedback: [richard@inihaus.de](mailto:richard@inihaus.de)
