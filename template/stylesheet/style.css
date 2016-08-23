@@ -1,0 +1,153 @@
+/*Copyright 2016 by Richard Mietz*/
+
+body {
+	background-color: #F2F2F2;
+	color: #535e65;
+	margin: 0;
+}
+
+h1 {
+	color: #5789bb;
+}
+
+a {
+	color: #5789bb;
+}
+
+a:hover, a:active, a:focus {
+	color:#5789bb;
+	text-decoration: none;
+}
+
+.wrapper {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.header {
+	margin-top: 0;
+	margin-bottom: 0.2em;
+	margin-left: 150px;
+	padding: 0;
+}
+
+.sidebar {
+	position: fixed;
+	float: left;
+	left: 0;
+	display: inline;
+	height: 100%;
+	width: 150px;
+	background-color: #5789bb;
+	margin-bottom: 0;
+}
+
+.sidebar ul {
+	list-style: none;
+	text-align: left;
+	padding: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin: 0;
+}
+
+.sidebar li {
+	width: 150px;
+	border-bottom: none;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.4em;
+	display: inline-block;
+	margin-right: -4px;
+	text-align: center;
+	background-color: #5789bb;
+}
+.sidebar a {
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	transition: .3s background-color;
+}
+
+.sidebar a:hover {
+	background-color: #535e65;
+	color: #ffffff;
+}
+
+.sidebar a.active {
+	background-color: #5789bb;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.content {
+	left: 120px;
+	height: auto;
+	margin-top: 30px;
+	margin-left: 180px;
+	/*margin-left: 11.5%;*/
+	padding-bottom: 1em;
+	width: 77%;
+}
+.content img {
+	margin-left: 1em;
+}
+
+.footer {
+	position: fixed;
+	background-color: #535e65;
+	text-align: left;
+	padding-left: 150px;
+	color: #ffffff;
+	height: 1.2em;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+}
+
+.nav ul {
+	position: relative;
+	list-style: none;
+	background-color: #535e65;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	padding-left: 150px;
+}
+
+.nav li {
+	width: 120px;
+	border-bottom: none;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.4em;
+	display: inline-block;
+	margin-right: -4px;
+	text-align: center;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	transition: .3s background-color;
+}
+
+.nav a:hover {
+	background-color: #5789bb;
+	color: #ffffff;
+}
+
+.nav a.active {
+	background-color: #5789bb;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+@media (max-width: 599px) {
+}
