@@ -2,6 +2,7 @@
 A python based static site generator
 
 pySSG takes the content of your *"content/"*-folder and generates a static website with the layout of your *default.html*, which is stored in *"templates/"*
+
 ATM its Linux exclusive, but a cross plattform support is planned.
 
 It can:
