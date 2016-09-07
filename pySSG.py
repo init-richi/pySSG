@@ -43,7 +43,7 @@ import os, fileinput, shutil
 # functions start
 
 def build_cp_files(delete):
-    '''copies files from "contet/files/", "content/subpages/files/", "template/files/" to "web/files", "web/subpages/files/";
+    '''copies files from "content/files/", "content/subpages/files/", "template/files/" to "web/files", "web/subpages/files/";
     delete='true'-> deletes all prev. "files"-folders in "web/", delete='false'-> overwrites existing files'''
     if delete == 'true':
         folder_content = os.listdir('web/files/')
@@ -108,6 +108,7 @@ def rw_content_content(cfile, wfile):
 
 
 # functions end
+
 check = input('Delete all files in "web/files" & "web/subpages/files"? (true/false)')
 print('building files...')
 build_cp_files(check)
@@ -131,7 +132,7 @@ for cfile in cfile_folder:
 file = open('tmp/nav.temp', 'a')
 file.write('</ul>\n')
 file.close()
-input('Check "tmp/nav.temp", if everythin is at the right place, then hit [ENTER]')
+input('Check "tmp/nav.temp", if everything is at the right place, then hit [ENTER]')
 nav_cnt = open('tmp/nav.temp', 'r').readlines()
 nav_cnt = ''.join(str(i) for i in nav_cnt)
 for cfile in cfile_folder:
